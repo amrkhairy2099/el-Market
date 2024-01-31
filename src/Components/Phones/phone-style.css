@@ -1,0 +1,57 @@
+.shop .category {
+   height: fit-content;
+   margin-top: 24px;
+}
+
+.mobile-head {
+   margin-bottom: 20px;
+}
+
+.mobile-head h1 {
+   font-size: 20px;
+}
+
+.mobile-head h1:nth-child(2) {
+   opacity: 0.5;
+   border-left: 3px solid rgba(0, 0, 0, 0.5);
+   padding-left: 40px;
+}
+
+.shop .category .box {
+   background-color: #f9f9fc;
+   margin-top: 8px;
+}
+
+.shop .btn {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   font-size: 17px;
+   font-weight: 500; 
+   background-color: #f9f9fc;
+   margin-top: 8px;
+   cursor: pointer;
+   transition: var(--main-time);
+}
+
+.shop .btn:hover {
+   background-color: #ffe1ef;
+}
+
+.shop .w-80 {
+   width: 80%;
+   margin-left: 30px;
+}
+
+.grid1 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+}
+
+.grid2 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+}
+

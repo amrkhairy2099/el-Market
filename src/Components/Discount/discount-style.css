@@ -1,0 +1,31 @@
+.big-discount .box {
+   background-color: #fff;
+   border: 2px solid #cdcdcd;
+   border-radius: 0;
+   box-shadow: var(--box-shadow-3);
+   overflow: hidden;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(6, auto);
+   grid-gap: 15px;
+}
+
+.info {
+   border-top: 1px solid rgba(0 0 0 / 30%);
+   padding: 5px 10px;
+}
+
+
+.info h4 {
+   font-weight: 500;
+   margin: 6px 10px
+}
+
+.info span {
+   font-size: 15px;
+   color: #e94560;
+   font-weight: 500;
+   padding: 0 16px;
+}

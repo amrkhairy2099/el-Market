@@ -1,0 +1,36 @@
+.top-cate {
+   position: relative; 
+}
+
+.top-cart {
+   flex-wrap: wrap;
+}
+
+.top-cate .box {
+   position: relative;
+   border-radius: 8px;
+   margin: 15px; 
+   overflow: hidden;
+   box-shadow: var(--box-shadow-3)
+}
+
+.top-cate .top-info {
+   position: absolute;
+   width: 100%;
+   padding: 5px;
+}
+
+.top-cate span {
+   border-radius: 50px;
+   padding: 0 10px;
+}
+
+.top-cate  .tleft {
+   background-color: #0f3460;
+   color: #fff;
+   font-weight: 200;
+}
+.top-cate .tright {
+   background-color: #cdcdcd;
+   color: #000;
+}

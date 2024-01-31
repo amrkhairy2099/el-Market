@@ -1,0 +1,27 @@
+.new-arrival h4 {
+   font-weight: 400;
+   margin: 6px 10px;
+}
+
+.new-arrival span {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0 16px;
+}
+
+.price {
+   color: #e94560;
+}
+
+.content {
+   display: grid;
+   grid-template-columns: repeat(6, auto);
+   grid-gap: 15px;
+}
+
+.content .box {
+   border-radius: 16px;
+   border: 2px solid #cdcdcd;
+   overflow: hidden;
+   box-shadow: var(--box-shadow-3); 
+}

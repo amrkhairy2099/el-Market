@@ -1,0 +1,58 @@
+footer {
+   background-color: #0f3460;
+   color: #FFF;
+   padding: 40px 0;
+}
+
+footer h1 {
+   margin-bottom: 15px;
+   color: #e94560;
+   font-weight: 500;
+   font-style: italic;
+}
+
+footer h2 {
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+footer .img {
+   background-color: #0c2a4d;
+   padding: 4px 13px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+footer .img i {
+   font-size: 20px;
+   margin: 5px; 
+}
+
+footer .img span {
+   margin-top: 5px;
+}
+
+footer p {
+   font-size: 14px;
+   font-weight: 300;
+   opacity: 0.5;
+   margin: 10px 0;
+}
+
+footer li {
+   font-weight: 300;
+   padding: 0 10px;
+   margin-bottom: 10px;
+   opacity: 0.5;
+   cursor: pointer;
+   transition: 0.3s; 
+}
+
+footer li:hover {
+   color: #e94560;
+   opacity: 1;
+}
+
+footer li span {
+   color: #e94560;
+}

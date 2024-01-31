@@ -1,0 +1,28 @@
+.warpper {
+   text-align: center;
+}
+
+.warpper .img {
+   margin: auto;
+   height: 70px;
+   width: 70px;
+   line-height: 70px;
+   margin-bottom: 20px;
+}
+
+.warpper .img i {
+   font-size: 25px;
+}
+
+.warpper .product {
+   padding: 30px;
+}
+
+.warpper .product h3 {
+   font-weight: 500;
+}
+.warpper .product p {
+   font-size: 14px;
+   margin-top: 20px;
+   color: grey;
+}
